@@ -1,0 +1,51 @@
+body {
+    float: left;
+    max-width: 1125px;
+    height: auto;
+}
+
+div.banner img.vhs {
+    float: left;
+    max-width: 70px;
+    height: auto;
+}
+
+div.header {
+    float: center;
+    padding: 0 10 0;
+}
+
+h1 {
+    Color: black;
+}
+
+table.pics td img.dvbois {
+    max-width: 100px;
+    height: auto;
+    padding: 10 10 0;
+}
+
+table.pics td img.dvbois {
+    max-width: 100px;
+    height: auto;
+    padding: 10 10 0;
+}
+
+table.pics td img.jordan {
+    max-width: 100px;
+    height: auto;
+    padding: 10 10 0;
+}
+
+table.pics td img.sky {
+    max-width: 100px;
+    height: auto;
+    padding: 10 10 0;
+}
+
+div.general {
+    float: left;
+    max-width: px;
+    height: auto;
+}
+
