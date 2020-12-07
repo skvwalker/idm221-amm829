@@ -4,16 +4,24 @@ body {
     height: auto;
 }
 
-div.banner img.vhs {
+header.header img.vhs {
     float: left;
     max-width: 70px;
     height: auto;
 }
 
-div.banner div.header h1 {
+header.header div.banner h1 {
     float: center;
     padding: 0 10 0;
     font-size: small;
+    Color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    float: center;
+    padding: 0 10 0;
+    font-size: medium;
     Color: black;
     font-family: 'Oswald', sans-serif;
 }
@@ -39,7 +47,11 @@ table.pics td img.sky {
 
 div.general p {
     float: left;
-    max-width: 700px;
+    max-width: 375px;
     height: auto;
 }
 
+div.video iframe.explosionvid {
+    max-width: 375px;
+    height: auto;
+}
