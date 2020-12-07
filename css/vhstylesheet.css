@@ -19,8 +19,8 @@ header.header div.banner h1 {
 }
 
 h2 {
-    float: center;
-    padding: 0 10 0;
+    float: left;
+    padding: 0 0 0;
     font-size: medium;
     Color: black;
     font-family: 'Oswald', sans-serif;
