@@ -1,6 +1,6 @@
 body {
     float: left;
-    max-width: 1125px;
+    max-width: 375px;
     height: auto;
 }
 
@@ -10,22 +10,16 @@ div.banner img.vhs {
     height: auto;
 }
 
-div.header {
+div.banner div.header h1 {
     float: center;
     padding: 0 10 0;
-}
-
-h1 {
+    font-size: small;
     Color: black;
+    font-family: 'Oswald', sans-serif;
 }
 
 table.pics td img.dvbois {
-    max-width: 100px;
-    height: auto;
-    padding: 10 10 0;
-}
-
-table.pics td img.dvbois {
+    float: left;
     max-width: 100px;
     height: auto;
     padding: 10 10 0;
@@ -43,9 +37,9 @@ table.pics td img.sky {
     padding: 10 10 0;
 }
 
-div.general {
+div.general p {
     float: left;
-    max-width: px;
+    max-width: 700px;
     height: auto;
 }
 
