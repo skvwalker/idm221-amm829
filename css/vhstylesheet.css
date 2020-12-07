@@ -4,25 +4,28 @@ body {
     height: auto;
 }
 
-header.header div.container {
+header.header {
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 1);
-    box-sizing: border-box;
     border: 5px solid red;
+    box-sizing: border-box;
+
 }
 
-header.header img.vhs {
+img.vhs {
     float: left;
-    max-width: 70px;
+    width: 70px;
     height: auto;
+    margin: 0;
+    padding: 0;
 }
 
-header.header h1 {
+h1 {
     float: left;
-    width: 100%;
-    padding: 0 10 0;
+    padding: 30 10 0;
     font-size: xx-small;
     Color: black;
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 
 div.banner table.menu {
@@ -32,9 +35,9 @@ div.banner table.menu {
     padding: 0 10 0;
 }
 
-div.subheader h2 {
-    float: left;
-    padding: 0 0 0;
+h2 {
+    margin: 0;
+    padding: 0 10 0;
     font-size: medium;
     Color: black;
     font-family: 'Oswald', sans-serif;
