@@ -4,10 +4,11 @@ body {
     height: auto;
 }
 
-header.header {
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 1);
-    border: 5px solid red;
+header {
+    float: left;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
     box-sizing: border-box;
+    width: 100%
 
 }
 
@@ -28,16 +29,40 @@ h1 {
     margin: 0;
 }
 
-div.banner table.menu {
-    float: left;
-    width: 100%;
+/*--Main Menu--*/
+header div.banner table.menu {
+    clear: both;
+    font-family: 'Open Sans Condensed', sans-serif;
     height: auto;
-    padding: 0 10 0;
+    padding: 10 10 10;
+
 }
 
-h2 {
+header div.banner table.menu tr td {
+    left: 0%;
+}
+
+header div.banner table.menu tr td td {
+    left: 33%;
+}
+
+header div.banner table.menu tr td td td {
+    left: 66%;
+}
+
+div.page {
+    float: left;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    width: 100%
+
+}
+
+/*--Meet the crew--*/
+div.subheader h2 {
+    clear: both;
     margin: 0;
-    padding: 0 10 0;
+    padding: 10 10 0;
     font-size: medium;
     Color: black;
     font-family: 'Oswald', sans-serif;
@@ -62,10 +87,19 @@ table.pics td img.sky {
     padding: 10 10 0;
 }
 
+table.pics tr {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+div.video h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
 div.general p {
     float: left;
     max-width: 375px;
     height: auto;
+    padding: 10 10 10 10;
 }
 
 div.video iframe.explosionvid {
