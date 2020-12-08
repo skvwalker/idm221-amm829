@@ -1,15 +1,19 @@
 body {
-    float: left;
-    max-width: 375px;
+    background-image: url(../images/vhs_background.jpg);
+    z-index: 0;
+    width: 375px;
     height: auto;
+    background-size: 390px 1200px; 
+    background-repeat: no-repeat;
 }
 
+/*--Header--*/
 header {
+    clear: both;
     float: left;
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
-    box-sizing: border-box;
-    width: 100%
-
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+    width: 375px;
+    height: 100px;
 }
 
 img.vhs {
@@ -24,85 +28,213 @@ h1 {
     float: left;
     padding: 30 10 0;
     font-size: xx-small;
-    Color: black;
+    Color: White;
     font-family: 'Oswald', sans-serif;
     margin: 0;
+}
+
+/* Hyper Link Style */
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
+a:active {
+    color: white;
+}
+
+a:visited {
+    color: white;
 }
 
 /*--Main Menu--*/
-header div.banner table.menu {
+.menu {
+    display: flex; 
+    justify-content: space-between;
     clear: both;
+    width: 375px;
     font-family: 'Open Sans Condensed', sans-serif;
-    height: auto;
-    padding: 10 10 10;
-
+    height: 40px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+   
 }
 
-header div.banner table.menu tr td {
-    left: 0%;
-}
-
-header div.banner table.menu tr td td {
-    left: 33%;
-}
-
-header div.banner table.menu tr td td td {
-    left: 66%;
-}
-
-div.page {
+div.box1 {
+    width: 10%;
     float: left;
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
-    box-sizing: border-box;
-    width: 100%
+    padding: 10 30 0 10;
+    color: white;
+}
 
+div.box2 {
+    width: 10%;
+    float: left; 
+    left: 60%;
+    padding: 10 20 10;
+    color: white;
+}
+
+div.box3 {
+    width: 10%;
+    float: right;
+    padding: 10 20 10;
+    color: white;
+}
+
+/*--Page--*/
+div.page {
+    clear: both;
+    width: 375px;
+    box-shadow: 5px 1px 3px rgba(0, 0, 0, 1);
+    padding: 0 0 10px 0;
 }
 
 /*--Meet the crew--*/
-div.subheader h2 {
+.subheader h2 {
     clear: both;
     margin: 0;
-    padding: 10 10 0;
+    padding: 10 10 0 0;
     font-size: medium;
-    Color: black;
+    color: white;
     font-family: 'Oswald', sans-serif;
+}
+
+table.pics {
+    display: flex; 
+    justify-content: space-between;
+    float: center;
+    height: auto;
+    padding: 0 0 20 0;
 }
 
 table.pics td img.dvbois {
     float: left;
     max-width: 100px;
     height: auto;
-    padding: 10 10 0;
+    border: 1px solid white;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
 }
 
 table.pics td img.jordan {
     max-width: 100px;
     height: auto;
-    padding: 10 10 0;
+    margin: 5px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
 }
 
 table.pics td img.sky {
     max-width: 100px;
     height: auto;
-    padding: 10 10 0;
+    margin: 0;
+    border: 1px solid white;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
 }
 
 table.pics tr {
+    color: white;
     font-family: 'Open Sans Condensed', sans-serif;
+    padding: 10 20 0 10;
+    margin: 10px;
 }
 
+
+
 div.video h3 {
+    color: white;
     font-family: 'Oswald', sans-serif;
 }
 
+/*--Header--*/
+h4 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 10 0 0;
+    padding: 10 10 10 10;
+}
+
+/*--VIDEO--*/
+div.video iframe.explosionvid {
+    clear: both;
+    width: 370px;
+    height: auto;
+    float: center
+}
+
 div.general p {
+    color: white;
+    padding: 10 10 0;
     float: left;
     max-width: 375px;
     height: auto;
     padding: 10 10 10 10;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0 0 0 5;
 }
 
-div.video iframe.explosionvid {
-    max-width: 375px;
+footer {
+    width: 385px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+}
+
+footer div {
+    width: 50%;
+    float: left;
+    padding: 20 0 20;
+}
+
+p.sub1 {
+    margin: 0;
+    padding: 20 10 0;
+    font-size: medium;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer img.tiktok {
+    float: left;
+    max-width: 30px;
     height: auto;
+    margin: 10px;
+}
+
+footer img.twitter {
+    float: left;
+    max-width: 30px;
+    height: auto;
+    margin: 10;
+}
+
+footer img.youtube {
+    float: left;
+    max-width: 30px;
+    height: auto;
+    margin: 10;
+}
+
+footer div div {
+    width: 50%;
+    float: left;
+    padding: 20 0 20;
+}
+
+p.sub2 {
+    clear: left;
+    margin: 0;
+    padding: 20 10 0;
+    font-size: medium;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer img.patron {
+    float: left;
+    max-width: 30px;
+    height: auto;
+    margin: 10px;
 }
