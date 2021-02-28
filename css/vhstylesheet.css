@@ -117,7 +117,18 @@ table.pics td img.dvbois {
     height: auto;
     border: 1px solid white;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+
+    animation: fadedvbois ease 10s; 
 }
+
+                    @keyframes fadedvbois {
+                        0% {
+                        opacity: 0;
+                        }
+                        100% {
+                        opacity: 1;
+                        }
+                    }
 
 table.pics td img.jordan {
     max-width: 100px;
@@ -125,7 +136,18 @@ table.pics td img.jordan {
     margin: 5px;
     border: 1px solid white;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+
+    animation: fadejordan ease 10s; 
 }
+
+                    @keyframes fadejordan {
+                        0% {
+                        opacity: 0;
+                        }
+                        100% {
+                        opacity: 1;
+                        }
+                    }
 
 table.pics td img.sky {
     max-width: 100px;
@@ -133,7 +155,18 @@ table.pics td img.sky {
     margin: 0;
     border: 1px solid white;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+
+    animation: fadeskv ease 10s; 
 }
+
+                    @keyframes fadeskv {
+                        0% {
+                        opacity: 0;
+                        }
+                        100% {
+                        opacity: 1;
+                        }
+                    }
 
 table.pics tr {
     color: white;
