@@ -69,7 +69,7 @@ div.hamburger {
     z-index: 1;
     top: -10px;
     width: 100%;
-    background: inherit;
+    color: white;
 }
 
 .hamburger .honeymustard > div:after {
