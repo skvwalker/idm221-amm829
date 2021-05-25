@@ -7,13 +7,82 @@ body {
     background-repeat: no-repeat;
 }
 
+/*--Hamburger--*/
+div.hamburger {
+    display: all;
+    float: left;
+    width: 375px;
+    height: 200px;
+    padding: 30 10 0;
+    font-size: xx-small;
+    Color: White;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hamburger .lettuce {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+
+.hamburger .honeymustard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 60px;
+    width: 60;
+    padding: 1rem;
+    background: (100, 50, 30, .75);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+/*--Hamburger Line (targeting the div inside honeymustard--*/
+
+.hamburger .honeymustard > div {
+    position: relative;
+    height: 2px;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: white;
+}
+
+.hamburger .honeymustard > div:before,
+.hamburger .honeymustard > div:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    width: 100%;
+    color: white;
+}
+
+.hamburger .honeymustard > div:after {
+    top: 10px;
+}
+
 /*--Header--*/
 header {
     clear: both;
     float: left;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
     width: 375px;
-    height: 100px;
+    height: 50px;
 }
 
 img.vhs {
@@ -60,7 +129,6 @@ a:visited {
     font-family: 'Open Sans Condensed', sans-serif;
     height: 40px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
-   
 }
 
 div.box1 {
@@ -117,7 +185,18 @@ table.pics td img.dvbois {
     height: auto;
     border: 1px solid white;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+
+    animation: fadedvbois ease 10s; 
 }
+
+                    @keyframes fadedvbois {
+                        0% {
+                        opacity: 0;
+                        }
+                        100% {
+                        opacity: 1;
+                        }
+                    }
 
 table.pics td img.jordan {
     max-width: 100px;
@@ -125,7 +204,18 @@ table.pics td img.jordan {
     margin: 5px;
     border: 1px solid white;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+
+    animation: fadejordan ease 10s; 
 }
+
+                    @keyframes fadejordan {
+                        0% {
+                        opacity: 0;
+                        }
+                        100% {
+                        opacity: 1;
+                        }
+                    }
 
 table.pics td img.sky {
     max-width: 100px;
@@ -133,7 +223,18 @@ table.pics td img.sky {
     margin: 0;
     border: 1px solid white;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+
+    animation: fadeskv ease 10s; 
 }
+
+                    @keyframes fadeskv {
+                        0% {
+                        opacity: 0;
+                        }
+                        100% {
+                        opacity: 1;
+                        }
+                    }
 
 table.pics tr {
     color: white;
@@ -239,3 +340,13 @@ footer img.patron {
     height: auto;
     margin: 10px;
 }
+
+/*--Media Quries--*/
+/*--iPad--*/
+
+/*-- @media (min-width: 376px) {
+
+
+
+}
+--*/
